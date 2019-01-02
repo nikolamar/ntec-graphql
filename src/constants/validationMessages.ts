@@ -1,0 +1,9 @@
+export const validationRegisterPhone = 'phone number is not valid';
+export const validationRegisterEmail = 'email is already taken by existing user';
+export const validationLoginNoUser = 'could not find the user';
+export const validationLoginPassword = 'invalid password';
+export const validationLoginPasswordLength = 'password not long enough';
+export const validationLoginConfirmEmail = 'email is not confirmed';
+export const validationLockedAccount = 'your account is locked';
+export const validationPasswordAlreadyChanged = 'password already changed';
+export const validationUserEmail = 'user not found with that email';

@@ -1,0 +1,9 @@
+type Mutation {
+  register(
+    firstName: String!
+    lastName: String!
+    phone: String!
+    email: String!
+    password: String!
+  ): [Error!]
+}
